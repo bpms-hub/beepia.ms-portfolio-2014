@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_512x512</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon_512x512" sketch:type="MSArtboardGroup" stroke="#FFFFFF" stroke-width="8">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(72.000000, 29.000000)">
+                <polygon id="Triangle-1" sketch:type="MSShapeGroup" points="183.339623 23.7878788 320.264151 346.030303 46.4150943 346.030303 "></polygon>
+                <path d="M287.925739,77.5245412 C287.925739,77.5245412 357.381018,236.230106 392.108658,315.582889 C393.518145,318.803572 396.337119,325.244938 396.337119,325.244938 L64.9491202,182.318791 L396.337121,325.244939" id="Triangle-2" fill="#D8D8D8" sketch:type="MSShapeGroup" transform="translate(230.752673, 201.189870) scale(-1, 1) rotate(-66.000000) translate(-230.752673, -201.189870) "></path>
+                <path d="M366.681842,225.024035 L0,225.024035" id="Line-2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M183.113208,34.6325758 L183.113208,407.834641" id="Line" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

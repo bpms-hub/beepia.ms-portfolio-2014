@@ -1,0 +1,51 @@
+/* line 6, ../scss/fluidbox.scss */
+.fluidbox {
+  outline: none;
+}
+
+/* line 9, ../scss/fluidbox.scss */
+.fluidbox-overlay {
+  background-color: rgba(255, 255, 255, 0.85);
+  cursor: pointer;
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* Transition time for overlay is halved to ensure that flickering doesn't happen */
+  transition: all 0.125s ease-in-out 0.125s;
+}
+
+/* line 23, ../scss/fluidbox.scss */
+.fluidbox-wrap {
+  background-position: center center;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+  /* To prevent flickering, we delay the showing of the image */
+}
+/* line 31, ../scss/fluidbox.scss */
+.fluidbox-closed .fluidbox-wrap img {
+  transition: opacity 0 ease-in-out 0.25s;
+}
+
+/* line 33, ../scss/fluidbox.scss */
+.fluidbox-ghost {
+  background-size: 100% 100%;
+  background-position: center center;
+  position: absolute;
+  -webkit-transition-property: opacity, -webkit-transform;
+  -moz-transition-property: opacity, -moz-transform;
+  -o-transition-property: opacity, -o-transform;
+  transition-property: opacity, transform;
+  transition-duration: 0, 0.25s;
+  transition-delay: 0.25s, 0;
+}
+/* line 44, ../scss/fluidbox.scss */
+.fluidbox-opened .fluidbox-ghost {
+  transition-delay: 0, 0;
+}

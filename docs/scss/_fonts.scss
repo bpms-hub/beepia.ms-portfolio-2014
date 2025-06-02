@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:500&effect=anaglyph);
+@import url(http://fonts.googleapis.com/css?family=Ovo:400,600|Merriweather:400|Audiowide:400);
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script&effect=anaglyph);
+
+//$sans-font-stack: "Crimson Text", sans-serif;
+$serif-font-stack: "Ovo", sans-serif;
+$orbitron-font-stack: "Orbitron", sans-serif;
+$exo-font-stack: "Exo 2", sans-serif;
+$sans-font-stack: "Crimson Text", serif;
+$audiowide-font-stack: "Audiowide", serif;
+$baumans-font-stack: "Kaushan Script", cursive;
+
+
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: $exo-font-stack;
+     color: #FFF;
+     line-height: 75%;
+     //letter-spacing: -.05em;   
+     //font-weight: 400;
+}
+
+
+p {
+     font-family: $sans-font-stack;
+     color: #FFF;
+     //line-height: 100%;
+     //letter-spacing: -.05em;   
+     font-weight: 600;
+}
+
+i {
+    color: rgba(255,255,255, 1);
+    
+}
+
+.vcard .vcardDesc
+{
+  font-family: $baumans-font-stack;
+   color: #FFF;
+   font-size: 14px;
+}
+
+// body {
+//   font-family: 'liquid_crystalregular', sans-serif;
+//   user-select: none;
+//   user-drag: none;
+// }
+
+.clock {
+  // height: 100px;
+  // width: 70%;
+  // line-height: 100px;  
+  // margin: 150px auto 0;
+  // padding: 0 50px;
+  // background: #222;
+   color: #fff;
+  // text-align: center;
+  // border-radius: 15px;
+  // box-shadow: 0 0 7px #222;
+  // text-shadow: 0 0 3px #fff;
+}
